@@ -1,17 +1,27 @@
+/* ---------------------------------------------NAVBAR------------------------------------------------- */
 body{
     width: 100vw;
     height: 100vh;
+	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	flex-wrap: wrap;
+	font-family: 'Caveat', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'Varela Round', sans-serif;
 }
 .navbar{
     background-color: rgb(1, 114, 189);
     width: 22%;
     height: 100vh;
     color: white;
-	font-family: 'Caveat', cursive;
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Mulish', sans-serif;
-	font-family: 'Nanum Gothic Coding', monospace;
-	font-family: 'Varela Round', sans-serif;
+	
 	
 }
 .dashboard-img{
@@ -52,28 +62,94 @@ body{
 }
 .menu:hover{
 	transform: scale(1.03);
+	cursor: pointer;
 }
-.medium-bottom{
+.navbar-bottom{
 	margin-top: 65px;
 }
+/* ----------------------------------HEADER----------------------------------------------- */
+.header{
+	display: flex;
+	align-items: center;
+	width: 78%;
+	
+	
+}
+.search{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.search-img{
+	width: 31px;
+	margin-top: 25px;
+	margin-left: 22px;
+}
+.input-search{
+	height: 50px;
+	width: 80%;
+	border-radius: 15px;
+	border: solid 0px;
+	background-color:  #e2e8f0;
+	margin-top: 20px;
+	margin-left: 25px;
+	
+}
+.search-logo{
+	width: 60px;
+}
+.notification-img{
+	width: 41px;
+}
+.notification{
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+	margin-right: 0px;
+	width: 90px;
+}
+
+.notification-img:hover{
+	transform: scale(1.07);
+}
+.logo-img{
+	display: flex;
+	align-items: center;
+	width: 58px;
+	border-radius: 100px;
+	margin-top: 20px;
+	
+}
+.logo-lewy{
+	display: flex;
+	align-items: center;
+	width: 80px;
+	
+}
+.nickname{
+	display: flex;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo-img:hover{
+	transform: scale(1.07);
+}
+.nickname{
+	width: 20%;
+	display:flex ;
+	align-items: center;
+	justify-content: center;
+	
+}
+.nickname-napis{
+	margin-top: 20px;
+	font-size: 26px;
+	margin-right: 50px;
+}
+.nickname-napis:hover{
+	transform: scale(1.10);
+}
+/* -------------------------------------HEADER-BOTTOM------------------------------------------------ */
 
 
 
