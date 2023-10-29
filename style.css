@@ -93,7 +93,8 @@ body{
 	background-color:  #e2e8f0;
 	margin-top: 20px;
 	margin-left: 25px;
-	
+	padding-left: 40px;
+	font-size: 1.4rem;
 }
 .search-logo{
 	width: 60px;
@@ -144,22 +145,59 @@ body{
 .nickname-napis{
 	margin-top: 20px;
 	font-size: 26px;
-	margin-right: 50px;
+	margin-right: 90px;
 }
 .nickname-napis:hover{
 	transform: scale(1.10);
 }
 /* -------------------------------------HEADER-BOTTOM------------------------------------------------ */
 
+.logo-img-small{
+	margin-left: 32px;
+}
+.greetings{
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+.header-bottom{
+	display: flex;
+	align-items: center;
+	font-family: 'Caveat', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'Varela Round', sans-serif;
+}
+.text{
+	margin-top: 20px;
+	margin-left: 20px;
 
-
-
-
-
-
-
-
-
+	font-size: 18px;
+}
+.buttons{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	margin-right: 35px;
+	width: 70%;
+	gap: 15px;
+	margin-top: 10px;
+}
+.button{
+	display: flex;
+	background-color: blue;
+	color: white;
+	width: 10%;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	border-radius: 25px;
+	background-color: rgb(1, 114, 189);
+}
+.button:hover{
+	transform: scale(1.10);
+}
 
 
 
